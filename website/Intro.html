@@ -20,29 +20,83 @@
     <div class="row">
       <div class="col-md-4">
         <img src="C:\Users\maddi\OneDrive\Desktop\website\ProPic.jpeg" alt="Profile Picture" class="profile-img img-fluid mb-3">
-        <h2>Udaya Bhanu Maddineni</h2>
-        <p>Full stack Engineer</p>
-        <p><img src="C:\Users\maddi\OneDrive\Desktop\website\emailicon.jpg" style = "width: 25px; height: 25px; "> maddineniudayabhanu2022@gmail.com</p>
+        <h2 style="font-style: oblique;">Udaya Bhanu Maddineni</h2>
+        <p><img src="C:\Users\maddi\OneDrive\Desktop\website\human.jpg" style = "width: 25px; height: 25px; "> &nbsp Full stack Engineer</p>
+        <p><img src="C:\Users\maddi\OneDrive\Desktop\website\emailicon.jpg" style = "width: 25px; height: 25px; "> &nbsp maddineniudayabhanu2022@gmail.com</p>
         
-        <p><img src="/C:\Users\maddi\OneDrive\Desktop\website\phone.jpg">309-992-1607</p>
+        <p><img src="C:\Users\maddi\OneDrive\Desktop\website\phone.png" style = "width: 25px; height: 25px;" >  &nbsp 309-992-1607</p>
       </div>
-      <div class="col-md-8">
+
+      <style>
+        /* Additional CSS for horizontal timeline */
+        .timeline {
+          list-style: none;
+          padding: 0;
+         margin: 40px 0;
+          margin-top: 6px;
+    margin-bottom: 8px;
+    border-left-width: 3px;
+    width: 502.2831px;
+    height: 500px;
+        }
+      
+        .timeline-item {
+          display: flex;
+          margin-bottom: 30px;
+        }
+      
+        .timeline-item:before {
+          content: '';
+          width: 40px; /* Width of the timeline circle */
+          height: 40px; /* Height of the timeline circle */
+          background-color: pink; /* Timeline circle color */
+          border-radius: 50%;
+          margin-right: 20px;
+          scroll-padding: 124px !important;
+        }
+      
+        .timeline-item .content {
+          flex: 1;
+        }
+        .vertical-line {
+    border-left: 5px solid pink; /* Adjust the color and thickness of the line */
+    height: 350px; /* Adjust the height of the line */
+    margin-top: 6px;
+    margin-bottom: 8px;
+    border-left-width: 3px;
+    width: 502.2831px;
+    height: 500px;
+  }
+      </style>
+      </head>
+      <body>
+      
+      <div class="col-md-8 ">
         <h2>Professional Experience</h2>
         &nbsp;
-        <ul class="list-group">
-          <li class="list-group-item">
-            <h4>Software Engineer</h4>
-            <p>Cotiviti Healthcare - Apr 2019 to July 2022</p>
-  <a class="btn btn-primary btn-lg" href="https://www.cotiviti.com" role="button">Cotiviti</a>
-            <p>Built and deployed responsive web applications using React, HTML, CSS, and JavaScript.</p>
+        <ul class="timeline vertical-line">
+          <li class="timeline-item">
+            <div class="content"  >
+              <h3>Software Engineer</h3>
+              <p><strong>Cotiviti Healthcare Analytics</strong> - Mar 2021 to July 2022</p>
+              <p>Lead the development team in building responsive web applications using HTML, CSS, and JavaScript.</p>
+            </div>
           </li>
-          <li class="list-group-item">
-            <h4>Programmer Analyst</h4>
-            <p>Cognizant Technology Solutions - Feb 2016 to Apr 2017</p>
-<a class="btn btn-primary btn-lg " href="https://www.cognizant.com/us/en" role="button"Cognizant</a>
-            <p>Designed and implemented user interfaces using Bootstrap framework for clients </p>
+          <li class="timeline-item">
+            <div class="content">
+              <h3>Junior Software Engineer</h3>
+              <p><strong>Cotiviti Healthcare Analytics</strong> - Apr 2019 to Mar 2021</p>
+              <p>Designed and implemented user interfaces for client websites using Bootstrap framework.</p>
+            </div>
           </li>
-     
+          <li class="timeline-item">
+            <div class="content">
+              <h3>Programmer Analyst</h3>
+              <p><strong>Cognizant</strong> - Feb 2016 to Apr 2017</p>
+              <p>Designed and implemented user interfaces for client websites using Bootstrap framework.</p>
+            </div>
+          </li>
+          <!-- Add more timeline items as needed -->
         </ul>
       </div>
     </div>
